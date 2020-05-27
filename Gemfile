@@ -5,6 +5,8 @@ ruby '2.6.5'
 
 
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'carrierwave'
+gem 'rmagick'
 gem 'devise'
 gem 'devise-i18n'
 gem 'jquery-rails'
