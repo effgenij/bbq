@@ -16,14 +16,11 @@ gem 'rails-i18n'
 gem 'twitter-bootstrap-rails'
 gem "font-awesome-rails"
 gem 'uglifier', '>= 1.3.0'
+gem 'pg', '~> 1.2.3'
 
-group :production do
-  gem 'pg'
-end
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'sqlite3', '~> 1.4.2'
 end
 
 group :development do
