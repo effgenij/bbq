@@ -24,6 +24,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 4.0.1'
   gem 'factory_bot'
   gem 'shoulda-matchers', '~> 4.0'
+  gem 'dotenv-rails'
 end
 
 group :development do
