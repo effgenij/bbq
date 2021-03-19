@@ -1,24 +1,21 @@
-# README
+# Сервис организации встреч - BBQ
+Приложение для организации встреч. Социальная сеть для назначения мероприятий, общения и обмены фотографиями.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Версия руби и рельс
+Приложение написано на `rails 5.2.4.4`, `ruby 2.6.5 `.
 
-Things you may want to cover:
+### Демо версия
+Демо версия доступна по адресу
+* [bbq-awesome.herokuapp.com](https://bbq-awesome.herokuapp.com/)
 
-* Ruby version
+### Установка и запуск
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Клонировать репозиторий
+``` git clone git@github.com:effgenij/bbq.git```
+2. ИСпользовать ваши данные в 
+``` config/database.yml```
+```.env```
+3. Использовать Bundle
+```bundle install```
+4. Создать БД
+```rails db:setup```
