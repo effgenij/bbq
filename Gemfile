@@ -11,7 +11,7 @@ gem 'devise'
 gem 'devise-i18n'
 gem 'fog-aws'
 gem 'jquery-rails'
-gem 'rails', '~> 5.2.4'
+gem 'rails', '~> 5.2.8'
 gem 'rails-i18n'
 gem 'twitter-bootstrap-rails'
 gem "font-awesome-rails"
